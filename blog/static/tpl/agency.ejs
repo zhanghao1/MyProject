@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered ui-file-table">
+            <thead>
+            <tr>
+                <th>代理商编号</th>
+                <th>代理商名称</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <% for(var i = 0; i< result.length; i++) { %>
+            <tr>
+                <td><%= result[i].agency_id %></td>
+                <td><%= result[i].agency_name %></td>
+            </tr>
+
+            <% } %>
+
+            </tbody>
+        </table>
+    </div>
+</div>

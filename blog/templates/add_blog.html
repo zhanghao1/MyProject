@@ -1,0 +1,36 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css"></link>
+</head>
+<body>
+<div>
+	{% if errors %}
+		<p>{{ errors }}</p>
+	{% endif %}
+</div>
+<center>
+<form action='' method='post'>
+	<div class='col-md-9'>
+		<h1>添加博客</h1>
+		<table>
+			<tr>
+				<td>标题</td>
+				<td>{{ form.title }}</td>
+			</tr>
+			<tr>
+				<td>内容</td>
+				<td>{{ form.content }}</td>
+			</tr>
+			<tr>
+				<td>作者</td>
+				<td>{{ form.author }}</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" value="添加"></td>
+			</tr>
+		</table>
+	</div>
+</form>
+</center>
+</body>
+</html>

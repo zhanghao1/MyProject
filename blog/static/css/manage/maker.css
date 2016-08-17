@@ -1,0 +1,73 @@
+#btnAdd {
+    float: right;
+}
+
+.form-control {
+    margin-left: 0px;
+    display: initial;
+
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: 0.5;
+    z-index: 3;
+    display: none;
+}
+
+.modal-body {
+    background: white;
+    width: 500px;
+
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 6px;
+}
+
+.modal-body input {
+    margin-top: 0px;
+}
+.ui-factory{
+    position: absolute;
+    font-size: 20px;
+    color: #999;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+    line-height: 36px;
+    border-radius: 5px;
+}
+#btnConfirm {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.myclose {
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    right: 5%;
+    cursor: pointer;
+}
+.label-danger1{
+    color: #d43f3a;
+    font-size: 15px;
+}

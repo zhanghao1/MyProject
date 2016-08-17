@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, select, input, textarea, button, p, blockquote, th, td, img, iframe, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 16px "Arial", 'Microsoft Yahei';
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+
+a:hover, a:visited, a:link {
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*内容*/
+.pgcontent {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: relative
+}
+
+.pgcontent {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: relative
+}
+
+#login-bg-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    /*margin-left: 50px;*/
+}
+
+.pgtop {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.pgtop {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+.pgmain {
+    width: 100%;
+    height: 95%;
+    margin-top: 1px;
+}
+
+.pgmain2 {
+    position: absolute;
+    top: 217px;
+    width: 100%;
+    height: 455px;
+}
+
+.pgtop2 {
+    margin-left: 10%;
+    width: 98%;
+}
+
+.pgtop2 img {
+    margin-top: 10px;
+    float: left;
+    height: 40px
+}
+
+.pgtop2 p {
+    float: left;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.pgmain {
+    width: 100%;
+    height: 95%;
+    margin-top: 1px;
+}
+
+.pgmain2 {
+    position: absolute;
+    top: 217px;
+    width: 100%;
+    height: 455px;
+}
+
+.pgmain2 ul {
+    list-style: none;
+    width: 302px;
+    background-color: #fff;
+
+    border: 1px solid #ebebeb;
+    height: auto;
+}
+
+.pgmain2 ul li {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.dwlogin {
+    /*background: url(../../img/device/button-1.gif) no-repeat 0px;*/
+    background-color: #62ACFF;
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #62ACFF), color-stop(1, #379af1)); *//* Saf4+, Chrome */
+    /*background: -moz-linear-gradient(top, #62ACFF, #379af1); *//* Firefox */
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62ACFF', endColorstr='#379af1', GradientType=0); *//* IE*/
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 271px;
+    margin: 0px;
+    margin-top: 15px;
+    color: #FFF;
+}
+
+.dwlogin:hover {
+    background-color: #379af1;
+    /*background: url(../../img/device/button-1-pressed.gif) no-repeat 0px;*/
+}
+
+.footer {
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    padding: 15px 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.phcolor {
+    color: #ccc;
+}
+
+.pgmain2 ul {
+    list-style: none;
+    width: 315px;
+    height: 272px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    border: 1px solid #ebebeb;
+}
+
+.pgmain2 ul li {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.pgmain2 ul li .ui-input {
+    border: 1px solid #c1c1c1;
+    width: 230px;
+    height: 27px;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #5e5e5e;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 2em !important;
+}
+
+.dwlogin {
+    /*background: url(../../img/device/button-1.gif) no-repeat 0px;*/
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 271px;
+    margin: 0px;
+    margin-top: 15px;
+    color: #FFF;
+}
+
+.dwlogin:hover {
+    /*background: url(../../img/device/button-1-pressed.gif) no-repeat 0px;*/
+}
+
+.ui-remember-pwd {
+    width: initial !important;
+    height: initial !important;
+}
+
+.pgmain2 ul li a {
+    float: right;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.pgmain2 ul li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 399px) {
+    .pgtop2 {
+        margin-left: 5px;
+        height: 50px;
+    }
+
+    .pgtop2 img {
+        margin-top: 14px;
+        float: left;
+        width: 50px;
+        height: 30px
+    }
+
+    .pgtop2 p {
+        line-height: 60px;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 10px !important;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    .pgtop2 {
+        margin-left: 13px;
+        height: 50px
+    }
+
+    .pgtop2 img {
+        margin-top: 10px;
+        float: left;
+        height: 35px
+    }
+
+    .pgtop2 p {
+        float: left;
+        line-height: 60px;
+        margin-left: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .pgmain2 ul {
+        float: right;
+        margin-right: 7% !important;
+    }
+
+    .pgtop2 {
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+.ui-content-div {
+    width: 100%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+/* 忘记密码页面css*/
+@media screen and (max-width: 374px) {
+    .content {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .content {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .content {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*.box-info {*/
+    /*height: 380px!important;*/
+    /*}*/
+    .margin-group {
+        width: 60% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-primary {
+        width: 57% !important;
+        margin-left: 21% !important;
+
+    }
+}

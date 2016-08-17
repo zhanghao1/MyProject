@@ -1,0 +1,89 @@
+.main-inner {
+	width: 67%;
+	float: left;
+}
+
+.overview-main .main-inner {
+	margin: 0 20px 20px;
+	padding: 20px;
+	background-color: #FFF;
+}
+
+.overview-activities {
+	background: aliceblue;
+	float: right;
+	width: 29%;
+    margin-bottom: 20px;
+}
+
+.overview-activities .activities-inner {
+	margin-right: 20px;
+	padding: 20px;
+	background-color: aliceblue;
+}
+
+.overviewCharts {
+	width: 100%;
+	min-height: 400px;
+}
+
+.screening.screening-overview {
+	height: 60px;
+}
+
+.screening-overview li {
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+
+.screening-overview li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	color: #f5f5f5;
+	border-radius: 30px;
+	margin: 0 auto;
+	background-color: #69F;
+	text-decoration: none;
+}
+
+.screening-title {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 0;
+}
+
+.activities-inner .screening-clear-line {
+	display: block;
+	height: 15px;
+	width: 100%;
+	border-bottom: 1px #CCC dashed;
+}
+
+.activities-inner .screening-conditions li {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.activities-inner .screening-conditions li .btn-search {
+	letter-spacing: 5px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.table-responsive {
+	width: 100%;
+}
+/*mmGrid表格插件*/
+.mmGrid{
+	clear:both;
+}
+/*分页器*/
+.mmPaginator{
+	float:right;
+}

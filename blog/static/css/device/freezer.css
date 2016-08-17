@@ -1,0 +1,119 @@
+*{
+	font-family: "Microsoft Yahei";
+}
+.container{
+	min-width: 300px;
+	background: #FBFBFF;
+}
+.header{
+	height: 50px;
+	background: #428BCA;
+	color:white;
+}
+.header a{
+	color:white;
+}
+.text-center{
+	text-align: center;
+	
+}
+.lheight-50{
+	line-height: 50px;
+}
+.freeze-title{
+	height:30px;
+	background: white;
+}
+.freeze-title p{
+	padding-top:9px;
+	font-weight: bold;
+}
+
+.freeze-status{
+	height:35px;
+	
+}
+.freeze-status ul li{
+	line-height: 35px;
+}
+/* 报警区域*/
+.humidity-alert{
+height: 40px;
+border-bottom: 1px solid #F1F2F4;
+background: white;
+padding-top:4px;
+} 
+.humidity-alert label{
+	padding: 5px;
+	font-weight: normal;
+	border:1px solid #F1F2F4;
+	border-radius: 3px;
+}
+.humidity-alert .lbalert{
+	/*margin-top: 4px;*/
+	
+}
+.humidity-alert .btncancel{
+	/*margin-top: 5px;*/
+	
+}
+/* 箱内灯和灯箱灯 */
+.freezer-light{
+	height: 45px;
+	border-bottom: 1px solid #F1F2F4;
+background: white;
+padding-top:5px;
+}
+.freezer-light p
+{
+	line-height: 35px;
+}
+.freezer-type{
+
+	margin-top:20px;
+	background: white;
+	height: 35px;
+}
+.freezer-type-date{
+	margin-top:4px;
+	background: white;
+	height: 35px;
+}
+.freezer-type-date ul li{
+	line-height: 35px;
+}
+.border-right-bottom{
+	background: #E1E1E1;
+	border-bottom-right-radius:17px;
+	border-top-right-radius:17px;
+}
+.border-left-bottom{
+	background: #E1E1E1;
+	border-bottom-left-radius:17px;
+	border-top-left-radius:17px;
+}
+/* 图表 */
+.chart{
+	height:200px;
+	
+	margin-bottom: 50px;
+}
+
+.footer{
+	margin:0;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	bottom: 0;
+	left:0;
+	background: white;
+	color:#929292;
+	border-top: 1px solid #F1F2F4;
+}
+.footer div{
+	line-height: 40px;
+}
+.footer dl dt{
+	color:#929292;
+}

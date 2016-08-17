@@ -1,0 +1,54 @@
+<div class="lab-source hidden">
+    <div class="lab-wrapper">
+        <div id="lab-title" class="lab-title cell-wrapper">
+            <h3>选择图片</h3>
+            <a href="javascript:void(0);" onclick="return false" class="icon16_opr closed pop_closed">关闭</a>
+        </div>
+        <div class="lab-main">
+            <div class="lab-group-list cell-wrapper">
+                <div class="inner_menu_box">
+                    <dl class="inner_menu js_group">
+                        <dd id="js_group1" class="inner_menu_item js_groupitem selected" data-groupid="1">
+                            <a href="javascript:void(0);" class="inner_menu_link" title="未分组"
+                               onclick="return false">
+                                <strong>未分组</strong><em class="num">(<span>8</span>)</em>
+                            </a>
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+            <div class="lab-sub-title cell-wrapper">
+                <span>大小不超过5M</span>
+                <div class="uk-form-file lab-upload hidden">
+                    <button class="uk-button"><span>本地上传</span></button>
+                    <input type="file" accept="video/mp4, image/gif,image/jpeg,image/jpg" id="upload-file"
+                           class="js-up-file"
+                           name="upload-file" onchange=previewImage(this)>
+                    <input type="hidden" name="send-url" class="js-send-url">
+                </div>
+            </div>
+            <div class="lab-content-list cell-wrapper">
+                <ul class="lab-group-item js-list img-list">
+
+                </ul>
+
+
+            </div>
+            <p class="lab-ft-desc">已选<span class="js_selected">0</span>个，可选1个</p>
+
+            <div class="lab-footer">
+                    <span class="btn btn_disabled btn_input  btn_primary js_btn_p">
+                        <button type="button" class="js_btn " data-index="0">确定
+                        </button>
+                    </span>
+
+                    <span class="btn btn_default btn_input js_btn_p">
+                        <button type="button" class="js_btn" data-index="1">取消
+                        </button>
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-layer hidden"></div>

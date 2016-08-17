@@ -1,0 +1,53 @@
+html,body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,select,input,textarea,button,p,blockquote,th,td,img,iframe,a{ margin: 0px; padding: 0px; } /*table{ bordercollapse:collapse; borderspacing:0;}*/ .clear{ font: 0px/0px serif; display: block; clear: both; }
+select,input,button,textarea,option { font: 12px , Arial,; } 
+img{ border: 0px;width: 110px;height: 110px }
+li{ list-style: none; } 
+body{ font: 15px "Arial",'Microsoft Yahei'; color: #888;} 
+a:link,a:visited{ textdecoration:none;} a:hover{ textdecoration:none;} table{ bordercollapse: collapse; borderspacing: 0; }
+.fontbule{ color:#0F4C9D;} 
+.fonthui{ color:#666;}
+div,.ect{ box-sizing:border-box;} 
+
+/*androiduser*/
+
+body{width:100%;margin:0px;padding:0px;font:15px "Arial",'Microsoft Yahei';height:auto;}
+
+a:hover{color: #ffffff;text-decoration: none;}
+
+
+/*api*/
+.alwid{ width:100%; clear:both; overflow:hidden; text-align:center !important;}
+.contain{ width:100%; margin:0 auto; overflow:hidden; margin-top: -18px}
+
+.openbox{width:100%;overflow: hidden;color: #888;font-size: 15px;overflow:hidden; padding-bottom:20px; clear:both; background:#fff
+url(../../img/home/top-gradient-divider.jpg) no-repeat center bottom;}
+.obhead-title{ font-size:26px; color:#333; margin-top:55px; width:100%;}
+.obhead-p{ font-size:16px; line-height:1.8em; margin-top:15px; width:90%;text-align: left;margin-left: 20px}
+.obhead-img{ margin:50px 0 45px;}
+
+.obmain{margin:40px auto 40px; text-align:center; display: inline-block;}
+.obmianbox{ width:90%; display:inline-block; text-align:left;}
+.obmianboxone{ clear:both; font-size:23px;  color:#333;}
+.obmianboxtwo{ font-size:16px; line-height:1.8em; margin-top:8px;color: #888}
+.obmianboxthree{ clear:both; font-size:23px; color:#333; margin-top:40px;}
+.obmianboxthree span{ font-size:15px; color:#888; font-weight:normal;}
+.obmianboxfoot{ width:90%; display:inline-block; text-align:center; margin-top:10px;}
+.obmianboxfootdl{ width:130px; display:inline-block; margin-top:20px;}
+.obmianboxfootdl dt{ text-align:center; clear:both; width:100%; height:110px;}
+.obmianboxfootdl dd{ text-align:center; clear:both; width:100%;color: #888}
+ 
+
+
+
+.obadus{margin:40px auto 20px; text-align:center; display: inline-block;}
+.obadus-title{ font-size:26px; clear:both; margin-bottom:30px;}
+.obadus-mian{ clear:both;}
+.obadus-miandl{ width:150px; text-align:center; display:inline-block; vertical-align:top;margin-bottom: 40px}
+.obadus-miandl dt{ height:120px; width:100%}
+.obadus-miandl dd{ width:100%; font-size:18px;color: #888}
+.obadus-foot{ clear:both; }
+.obadus-foot-but{ background:url(../../img/home/api/1508071-6.png); width:200px; height:60px; display:inline-block; font-size:20px; color:#fff; line-height:60px;}
+.obadus-foot-but:hover{ font-weight:bold;}
+.obadus-foot-title{ font-size:18px; color:#333; margin:20px 0;}
+.obadus-foot-title a{ color:#333;}
+.obadus-foot-title a:hover{ color:#333; text-decoration:underline;}

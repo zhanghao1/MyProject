@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-12">
+        <label class="col-sm-2 control-label">选择厂商</label>
+
+        <div class="col-sm-8 some-select">
+            <select class="form-control col-sm-3" name="factory" id="factory-sel">
+                <option value="0" selected>选择厂商</option>
+                <% for(var i = 0; i< datas.length; i++) { %>
+                <option value='<%= datas[i].fac_id %>'><%= datas[i].fac_name %></option>
+                <% } %>
+            </select>
+        </div>
+        <br>
+        <label class="col-sm-2 control-label">选择代理商</label>
+
+        <div class="col-sm-8 some-select">
+            <select class="form-control col-sm-3" name="agency" id="agency-sel">
+                <option value="0" selected>选择代理商</option>
+            </select>
+        </div>
+        <br>
+        <label class="col-sm-2 control-label">选择设备类型</label>
+
+        <div class="col-sm-8 some-select">
+            <select class="form-control col-sm-3" name="device-type" id="device-type-sel">
+                <option value="1">油烟机</option>
+                <option value="2">集成灶</option>
+            </select>
+        </div>
+        <br>
+        <label class="col-sm-2 control-label">批次型号</label>
+
+        <div class="col-sm-8 form-group">
+            <input class="form-control" id="batch-info" placeholder="批次型号"/>
+        </div>
+    </div>
+</div>
+<script>
+    my_bind()
+</script>

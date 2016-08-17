@@ -1,0 +1,370 @@
+body {
+    background-color: #ffffff !important;
+}
+
+#tab {
+    overflow: hidden;
+    zoom: 1;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #Fff;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+
+#tab li {
+    float: left;
+    /* cursor:pointer;*/
+    list-style-type: none;
+    text-align: center;
+    line-height: 60px;
+    height: 70px;
+    width: 33%;
+    font-size: 18px;
+}
+
+#tab li div {
+
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#warnText {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 0px;
+    width: 100%;
+    color: #ff8247;
+    text-indent: 0.5em;
+    margin-left: 10%;
+}
+
+#warn {
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid #EDEDED;
+    text-align: center;
+}
+
+#warndivText {
+    float: left;
+    width: 50%;
+    /* margin-top: 10px; */
+    height: 60px;
+    line-height: 60px;
+
+}
+
+.warndivBtn {
+    float: right;
+    width: 70px;
+    margin-right: 16px;
+}
+
+#warnBtn {
+    color: white;
+    height: 42px;
+    width: 70px;
+    font-size: 14px;
+    border: 0px; /* 边框取消 */
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ui-tab-nav li.current {
+    color: #187AE9;
+    border-bottom: 2px #187AE9 solid;
+}
+
+.btn-warning {
+    background-color: #FF8247;
+}
+
+.btn-success {
+    background-color: #00CD00;
+}
+
+.border-r {
+    float: left;
+    z-index: 21;
+    position: relative;
+    width: 50%;
+    margin-left: 0px;
+    /*margin-top: -9px;*/
+
+    border-right: 1px solid #e0e0e0;
+}
+
+#rowfreezer {
+
+    width: 95%;
+    height: 36px;
+    margin-left: 10px;
+    border-color: royalblue;
+}
+
+#rowtd1 {
+    text-align: center;
+}
+
+#rowtd2 {
+    text-align: center;
+}
+
+#rowtd3 {
+    text-align: center;
+}
+
+.inLight {
+    margin-left: 17px;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.roomNum {
+    color: #1A7AEA;
+}
+
+select {
+    color: #187AE9;
+}
+
+.Datediv {
+    width: 100%;
+    height: 60px;
+}
+
+#currentDate {
+    float: left;
+    text-indent: 0.5em;
+    width: 150px;
+    float: left;
+    font-size: 16px;
+    color: #666;
+}
+
+#currentDate2 {
+    text-indent: 0.5em;
+    width: 150px;
+    float: left;
+    color: #666;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+#currentDate3 {
+    text-indent: 0.5em;
+    width: 150px;
+    float: left;
+    color: #666;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.ui-tab-nav li {
+    color: #666;
+}
+
+#exchange {
+    float: right;
+    width: 40%;
+    text-align: right;
+    padding-right: 18px;
+    margin-top: 0px;
+}
+
+.listshow {
+
+    padding-right: 3px;
+    border: 0px;
+}
+
+.tableshow {
+
+    padding-left: 3px;
+    border: 0px;
+}
+
+.ui-room {
+    height: 0px;
+}
+
+.ui-tab-nav {
+    position: initial !important;
+}
+
+.ui-form-item-switch {
+    line-height: initial !important;
+    position: relative;
+}
+
+.ui-switch {
+    right: 35px !important;
+    top: 320px !important;
+    z-index: 999;
+    width: auto !important;
+}
+
+.ui-list-text > li {
+    padding: initial !important;
+}
+
+.ui-list > li {
+    position: initial !important;
+    display: -webkit-box;
+
+    margin-left: initial !important;
+}
+
+/*表格样式*/
+table {
+    width: 100%;
+    border: 0;
+    /*margin: 0px 15px;*/
+    text-align: center;
+}
+table tr th{
+    text-align: center;
+}
+table th {
+    background: #0090D7;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 14px;
+    color: #FFF;
+
+}
+
+table tr:nth-child(odd) {
+    background: #F4F4F4;
+
+}
+
+table td:nth-child(even) {
+    color: #68cc93;
+}
+
+
+
+table td, table th {
+    border: 1px solid #EEE;
+    text-align: center;
+}
+
+.ui-list-link li:after, li.ui-list-item-link:after {
+    background: none !important;
+}
+
+#edit-img {
+    position: relative;
+    vertical-align: middle;
+}
+
+.dev-model {
+    height: 30px;
+    width: 100%;
+    background: white;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#modelText {
+    font-size: 18px;
+    text-indent: 0.5em;
+    color: #000;;
+}
+
+@media screen and (max-width: 370px) {
+    #light-check {
+        height: 40px;
+    }
+
+    #light-check-left {
+        height: 40px;
+    }
+
+    .ui-light-control {
+        right: -15% !important;
+        top: -10px !important;
+    }
+
+    #exchange img {
+        width: 40px;
+    }
+
+    .dev-model {
+        font-size: 15px;
+    }
+
+    .dev-model input {
+        font-size: 15px !important;
+    }
+
+    .ui-li-div span {
+        top: 8px !important;
+        font-size: 20px !important;
+    }
+
+    .dev-model {
+        height: 80px !important;
+    }
+
+    #spanDeviceAlias {
+        float: left !important;
+        margin-top: -12px !important;
+    }
+}
+
+@media screen and (min-width: 371px) {
+    #light-check {
+        height: 45px;
+    }
+
+    #light-check-left {
+        height: 45px;
+    }
+    #exchange img {
+        width: 45px;
+    }
+    .ui-light-control {
+        right: -9% !important;
+        top: -10px !important;
+    }
+
+    .dev-model {
+        height: 80px !important;
+    }
+
+    #spanDeviceAlias {
+        float: left !important;
+        margin-top: -12px !important;
+    }
+}
+
+@media screen and (min-width: 581px) {
+    .ui-light-control {
+        right: 6% !important;
+    }
+
+    .dev-model {
+        height: 60px !important;
+    }
+
+    #spanDeviceAlias {
+        float: right !important;
+        margin-top: 0px !important;
+    }
+
+    #modelText {
+        width: 100px;
+        height: 50px;
+    }
+}

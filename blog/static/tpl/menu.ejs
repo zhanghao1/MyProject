@@ -1,0 +1,18 @@
+<ul class="role-menu-ul">
+    <% if (result.length<1) {%>
+    <p>该角色暂时还未分配菜单，先去分配菜单吧！</p>
+    <%} else {%>
+    <% for(var i = 0; i< result.length; i++) { %>
+    <% if(result[i].pid==0){ %>
+        <li class="first-menu"><%=result[i].name %>
+            <% for(var j = 0; j< result.length; j++) { %>
+                <% if(result[j].pid==result[i].id){ %>
+                <div class="placeholder-div"></div>
+                <p><%= result[j].name%></p>
+                <%}%>
+            <%}%>
+        </li>
+
+    <%}%>
+    <% }} %>
+</ul>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<!-- <link rel="stylesheet" href="/static/css/bootstrap.min.css"></link> -->
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}"/>
+</head>
+<body>
+<div class="container">
+	<form action='' method='post' class="bs-example bs-example-form">
+		{% csrf_token %}
+		<div class="input-group input-group-lg">
+	        <span class="input-group-addon glyphicon glyphicon-user"></span>
+	        <input type="text" class="form-control" placeholder="Username">
+	    </div><br>
+		<div class="input-group input-group-lg">
+	        <span class="input-group-addon glyphicon glyphicon-lock"></span>
+	        <input type="text" class="form-control" placeholder="Password">
+	    </div><br>
+	    <div>
+	    	<input type="submit" class="form-control">
+	    </div>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+html,body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,select,input,textarea,button,p,blockquote,th,td,img,iframe,a{ margin: 0px; padding: 0px; } /*table{ bordercollapse:collapse; borderspacing:0;}*/ .clear{ font: 0px/0px serif; display: block; clear: both; }
+select,input,button,textarea,option { font: 12px , Arial,; } 
+img{ border: 0px; } 
+li{ list-style: none; } 
+body{ font: 15px "Arial",'Microsoft Yahei'; color: #888;} 
+a:link,a:visited{ textdecoration:none;} a:hover{ textdecoration:none;} table{ bordercollapse: collapse; borderspacing: 0; }
+.fontbule{ color:#0F4C9D;} 
+.fonthui{ color:#666;}
+div,.ect{ box-sizing:border-box;} 
+
+/*androiduser*/
+
+body{width:100%;margin:0px;padding:0px;font:15px "Arial",'Microsoft Yahei';height:auto;}
+a:link{text-decoration:none;}
+/*a:hover{color: #ffffff;text-decoration: none;}*/
+
+
+/*产品*/
+.alwid{ width:100%; clear:both; overflow:hidden; text-align:center !important;}
+.contain{ width:980px; margin:0 auto; overflow:hidden; }
+
+.productbox{width:980px;overflow: hidden;color: #888;font-size: 15px;overflow:hidden; padding-bottom:20px; clear:both; background:#fff
+url(../../img/home/top-gradient-divider.jpg) no-repeat center bottom;}
+.pbhead-title{ font-size:40px; color:#333; margin-top:60px; width:100%;}
+.pbhead-p{ font-size:18px; line-height:1.8em; margin-top:15px; width:100%;}
+.pbhead-img{ margin:60px 0 60px;}
+
+.pblist{margin:60px auto 60px; text-align:center; display: inline-block;}
+.pblist-title{ font-size:32px; color:#439BF6; clear:both;}
+.pblist-title span{ font-size:20px; color:#333;}
+.pblist-titletwo{ font-size:20px; clear:both; margin:20px 0 0;}
+.pblist-p{ font-size:15px; line-height:1.5em; margin-top:10px; clear:both; width:100%;}
+.pblist-p a{ color:#439BF6;}
+.pblist-p a:hover{ color:#439BF6; text-decoration:underline;}
+.pblistdl{ width:230px; display:inline-block;text-align:center; color:#888; margin-top:50px;vertical-align:top;}
+.pblistdl dt{ width:100%;}
+.pblistdl dd{ width:100%;}
+.pblistdl dd b{ display:block; font-size:16px; font-weight:normal; width:100%; margin:20px 0;color:#333}
+.pblistdl dd p{ overflow:hidden; color:#888; line-height:1.8em; font-size:13px;}
+
+.pbproduct{margin:60px auto 60px; text-align:center; display: inline-block;}
+.pbproduct-title{ font-size:32px; clear:both; margin-bottom:60px;}
+.pbproduct-box{ width:981px; display:inline-block;border:1px solid #ececec; border-right:none; border-bottom:none;}
+.pbproduct-boxdl{border-right:1px solid #ececec;border-bottom:1px solid #ececec ;width:244px; text-align:center; vertical-align:top; display:inline-block; margin:0; float:left;}
+.pbproduct-boxdl:hover{ text-decoration:underline;}
+.pbproduct-boxdl dt{ height:200px; width:100%;}
+.pbproduct-boxdl dd{ width:100%;font-size:16px; padding: 30px 0 50px;}
+.pbproduct-boxdlone{ height:303px;}
+.pbproduct-boxdlone a{ color:#439BF6; line-height:300px;}
+.pbproduct-boxdlone a:hover{ color:#439BF6; text-decoration:underline;}
+.pbpa{ color:#888;}
+.pbpa:hover{ color:#888; text-decoration:underline;}
