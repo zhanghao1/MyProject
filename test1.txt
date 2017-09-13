@@ -1,0 +1,3 @@
+上传文件到远程分支；
+git  fetch可以拉取远程分支
+git checkout -b dev origin/dev            dev是远程分支名，这样远程分支就被拉取到本地；
